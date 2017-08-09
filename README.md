@@ -8,11 +8,15 @@ The first model is the k-nearest neighbors non linear approach. I'm using Deep N
 **Run both models:**  
 The 'main' cell will run and show the results of both models. Just pay attention on the output prints to see the results provided by 'Mean Absolute Error'. I'm avoiding 'Mean Absolute Percentage Error' here because this method have high chances to produce division by zeros.  
 
-**Dependencies:**
+**Dependencies:**  
 pandas  
 numpy  
 sklearn  
 matplotlib  
 keras (tensorflow as backend)
+
+**Results:**  
+Mean Absolute Error of the k-nearest neighbors approach: 0.0018  
+Mean Absolute Error of the Deep Learning(DNNs) approach: 0.0025
 
 
